@@ -5526,9 +5526,7 @@
   <java-symbol type="drawable" name="ic_zen_mode_type_theater" />
   <java-symbol type="drawable" name="ic_zen_mode_type_unknown" />
 
-  <!-- Fingerprint from a certified device against current platform SPL level -->
-  <java-symbol type="string" name="config_certifiedFingerprint" />
-
-  <!-- Fingerprint from stock ROM -->
+  <!-- PropImitationHooks -->
+  <java-symbol type="array" name="config_certifiedBuildProperties" />
   <java-symbol type="string" name="config_stockFingerprint" />
 </resources>
